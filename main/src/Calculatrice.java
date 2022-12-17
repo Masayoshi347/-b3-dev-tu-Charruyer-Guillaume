@@ -38,4 +38,8 @@ public class Calculatrice {
     }
 
   }
+
+  public static double performOperation(int i, String string, int j) {
+    return 0;
+  }
 }
