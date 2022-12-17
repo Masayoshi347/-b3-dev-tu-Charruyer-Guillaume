@@ -1,0 +1,25 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class ScientificCalculatorTest {
+  @Test
+  public void testSquare() {
+    ScientificCalculator calculator = new ScientificCalculator();
+    double result = calculator.square(5);
+    assertEquals(25, result, 0);
+  }
+
+  @Test
+  public void testSquareRoot() {
+    ScientificCalculator calculator = new ScientificCalculator();
+    double result = calculator.squareRoot(25);
+    assertEquals(5, result, 0);
+  }
+
+  @Test
+  public void testPower() {
+    ScientificCalculator calculator = new ScientificCalculator();
+    double result = calculator.power(5, 2);
+    assertEquals(25, result, 0);
+  }
+}
