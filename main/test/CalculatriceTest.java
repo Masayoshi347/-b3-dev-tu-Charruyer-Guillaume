@@ -36,21 +36,5 @@ public class CalculatriceTest {
         assertEquals(1, result, 0);
     }
 
-    @Test
-    public void testCarre() {
-        double result = Calculatrice.performScientificOperation("carré", 5);
-        assertEquals(25, result, 0);
-    }
 
-    @Test
-    public void testRacineCarree() {
-        double result = Calculatrice.performScientificOperation("racine carrée", 9);
-        assertEquals(3, result, 0);
-    }
-
-    @Test
-    public void testPuissance() {
-        double result = Calculatrice.performScientificOperation("puissance", 2, 3);
-        assertEquals(8, result, 0);
-    }
 }
