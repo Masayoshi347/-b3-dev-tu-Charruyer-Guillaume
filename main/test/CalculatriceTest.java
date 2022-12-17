@@ -1,6 +1,5 @@
 import org.junit.Test;
 
-import main.src.Calculatrice;
 
 import static org.junit.Assert.*;
 
